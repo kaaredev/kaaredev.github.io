@@ -1,0 +1,139 @@
+/* #337ab8 */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0e101c;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+}
+
+.navbar img {
+    margin: 2rem;
+    width: 200px;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2em;
+    margin: 1rem;
+    background-color: #2b96f3;
+    border-radius: 15px;
+}
+
+.button {
+    transition: transform 0.3s ease;
+    cursor: button;
+}
+
+.button:hover {
+    transform: translateY(-8px);
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aboutme {
+    color: #fff;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+.aboutme span {
+    color: #818790;
+    font-weight: lighter;
+}
+
+.aboutme p {
+    color: #818790;
+    font-size: 20px;
+    width: 16em;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+}
+
+.skills nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2em;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #141729;
+    text-align: center;
+}
+
+.skills nav ul li img {
+    width: 150px;
+}
+
+.skills nav ul li p {
+    color: #818790;
+    font-size: 20px;
+    width: 16em;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+}
+
+.contactinfo {
+    color: #fff;
+    width: 40%;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.contactinfo p {
+    color: #818790;
+    font-size: 20px;
+    width: 60%;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+}
+
+.contact {
+    position: absolute;
+    background: #141729;
+    padding: 1em 1.8em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 8rem;
+    transition: transform 0.3s ease;
+    cursor: button;
+}
+
+.contact:hover {
+    transform: translateY(-8px);
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
