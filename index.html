@@ -1,66 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Kaare - Developer</title>
-        <meta content="Kaare Portfolio" property="og:title">
-        <meta content="Kaare Portfolio" property="og:site_name">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Kaare</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header>
-        <main>
-            <div id="about">
-                <img src="./images/pfp.png">
-                <p>Hi, I'm Kaare. I'm using my software and web development skills to create innovative solutions that improve digital experiences for everyone.</p>
+<html lang="en">
+<head>
+    <title>Kaare - Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Kaare Portfolio" property="og:title">
+    <meta content="Kaare Portfolio" property="og:site_name">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kaare</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="about">
+            <img src="./images/pfp.png">
+            <p>Hi, I'm Kaare. I'm using my software and web development skills to create innovative solutions that improve digital experiences for everyone.</p>
+        </div>
+        <div id="skills">
+            <div class="skill">
+                <div class="imgbox">
+                    <img src="./images/js.png">
+                </div>
+                <p>I possess strong JavaScript skills, which drive website interactivity. JavaScript adds essential features like buttons, animations, and user interaction, making websites engaging and functional.</p>
             </div>
-            <div id="skills">
-                <div class="skill">
-                    <div class="imgbox">
-                        <img src="./images/js.png">
-                    </div>
-                    <p>I possess strong JavaScript skills, which drive website interactivity. JavaScript adds essential features like buttons, animations, and user interaction, making websites engaging and functional.</p>
+            <div class="skill">
+                <div class="imgbox">
+                    <img src="./images/nodejs.png">
                 </div>
-                <div class="skill">
-                    <div class="imgbox">
-                        <img src="./images/nodejs.png">
-                    </div>
-                    <p>I'm skilled in Node.js, ideal for crafting server-side features. Node.js allows efficient handling of backend tasks, enabling real-time communication and data processing. With Node.js, I create scalable and high-performance web applications that manage heavy traffic effortlessly.</p>
-                </div>
-                <div class="skill">
-                    <div class="imgbox">
-                        <img src="./images/html.png">
-                    </div>
-                    <p>I'm well-versed in HTML, the backbone of web development. It structures web content, defining elements like text, images, and links. HTML lays the groundwork for user interfaces, making websites easy to navigate and content-rich.</p>
-                </div>
-                <div class="skill">
-                    <div class="imgbox">
-                        <img src="./images/css.png">
-                    </div>
-                    <p>Proficient in CSS, I leverage its capabilities to style web content effectively. With CSS, I define layouts, colors, and fonts, ensuring visually appealing designs for seamless user experience across various devices and screen sizes.</p>
-                </div>
+                <p>I'm skilled in Node.js, ideal for crafting server-side features. Node.js allows efficient handling of backend tasks, enabling real-time communication and data processing. With Node.js, I create scalable and high-performance web applications that manage heavy traffic effortlessly.</p>
             </div>
-            <form id="contact" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="8d8a83d2-65ed-4a3f-bdaf-470d1a9373ec">
-                <p>Name:</p>
-                <input id="name" type="text" name="name" required>
-                <p>Email:</p>
-                <input id="email" type="email" name="email" required>
-                <p>Message:</p>
-                <textarea id="message" name="message" required></textarea>
-                <div class="h-captcha" data-captcha="true"></div>
-                <button type="submit">Submit</button>
-            </form>
-        </main>
-        <footer>
-            <hr>
-            <p>Kaare.dev ©</p>
-        </footer>
-    </body>
+            <div class="skill">
+                <div class="imgbox">
+                    <img src="./images/html.png">
+                </div>
+                <p>I'm well-versed in HTML, the backbone of web development. It structures web content, defining elements like text, images, and links. HTML lays the groundwork for user interfaces, making websites easy to navigate and content-rich.</p>
+            </div>
+            <div class="skill">
+                <div class="imgbox">
+                    <img src="./images/css.png">
+                </div>
+                <p>Proficient in CSS, I leverage its capabilities to style web content effectively. With CSS, I define layouts, colors, and fonts, ensuring visually appealing designs for seamless user experience across various devices and screen sizes.</p>
+            </div>
+        </div>
+        <form id="contact" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="8d8a83d2-65ed-4a3f-bdaf-470d1a9373ec">
+            <p>Name:</p>
+            <input id="name" type="text" name="name" required>
+            <p>Email:</p>
+            <input id="email" type="email" name="email" required>
+            <p>Message:</p>
+            <textarea id="message" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>Kaare.dev ©</p>
+    </footer>
+</body>
 </html>
